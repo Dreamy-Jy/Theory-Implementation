@@ -1,9 +1,9 @@
 # Theory Implementation
 ***
 
-This is a repository containing simple implementations (and possiblily a few technical reports) of Computer Science Principles I'm learning/have learnt. These implementations will be in all the languages I'm functional in at the time of their implementation.
+This is a repository containing simple implementations (and possibly a few technical reports) of Computer Science Principles I'm learning/have learnt. These implementations will be in all the languages I'm functional in at the time of their implementation.
 
-## Learning Resoures
+## Learning Resources
 |Books|Websites|
 | ------ | ------ |
 |[Think Like a Programmer](https://nostarch.com/thinklikeaprogrammer)|[HackerRank](https://www.hackerrank.com)|
