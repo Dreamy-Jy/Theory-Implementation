@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 
 class SelectionSort {
   // sorts array into assenting order
@@ -25,11 +25,11 @@ class SelectionSort {
     selectionSort(array);
   }
 /*helper methods for testing*/
-  public static int[] generateRandomIntArray(int size) {
-    int [] array = new int[(int) (Math.random()*size + 1)];
+  public static int[] generateRandomIntArray(int largestSize) {
+    int [] array = new int[(int) (Math.random()*largestSize + 1)];
 
     for (int i = 0; i < array.length; i++)
-      array[i] = (int) (Math.random()*(size*10));
+      array[i] = (int) (Math.random()*(largestSize*10));
 
     return array;
   }
