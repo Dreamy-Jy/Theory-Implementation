@@ -3,8 +3,8 @@ import java.util.Arrays;
 class BubbleSort {
 
   public static void bubbleSort(int[] array) {
-    for(int run = 0; run < array.length; run++)
-      for(int currentIndex = 0; currentIndex < array.length-1; currentIndex++ )
+    for(int run = array.length - 1; run > -1; run--)
+      for(int currentIndex = 0; currentIndex < run; currentIndex++)
         if(array[currentIndex] > array[currentIndex + 1]) { swap(array, currentIndex + 1 , currentIndex); }
   }
 
@@ -16,7 +16,7 @@ class BubbleSort {
 
   public static void main(String[] args) {
     int[] array = generateIntArray_randomValues(10, 10, -10);
-    //System.out.println( Arrays.toString(array) );
+    System.out.println( Arrays.toString(array) );
     bubbleSort(array);
     System.out.println( Arrays.toString(array) );
   }
