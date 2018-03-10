@@ -10,7 +10,7 @@ __Languages Implemented in__
 ## How it Works
 The Bubble Sort sorts the list through a series of comparisons between adjacent item in a list.
 
-Given an list containing *N* items, the algorithm sort the list by performing the __bubbling<sup>[1]</sup>__ the list *N* times.
+Given an list containing *N* items, the algorithm sorts the list by __bubbling<sup>[1]</sup>__ the list *N* times.
 
 __<sup>[1]</sup>__-looping through the  entire length of the array and swapping the current value the loop points to with the value that coming after it if the current value is larger than the value proceeding it.
 
