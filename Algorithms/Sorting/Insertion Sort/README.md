@@ -16,8 +16,8 @@ Conceptually this algorithm splits the array into a Sorted and Unsorted. The alg
 ## Todo
 
 * Refactor the Java Implementation:
-  - [ ] Make it only use one loop
+  - [x] Make a better implementation
 * Implement this Algorithm in:
   - [ ] C++
   - [ ] JavaScript
-  - [ ] Python
+  - [x] Python
