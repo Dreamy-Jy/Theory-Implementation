@@ -18,9 +18,9 @@ __<sup>[1]</sup>__-looping through the  entire length of the array and swapping 
 
 ## Todo
 * __Fix__
-  * [ ] My implementation of this sort does an unnesscary extra interation.
+  * [x] My implementation of this sort does an unnecessary extra iteration.
 * __Add__
-  * [ ] An optimized verson of the bubble sort.
+  * [ ] An optimized version of the bubble sort.
   * A random list generation function to your implementations in:
     * [x] Python
     * [x] C++

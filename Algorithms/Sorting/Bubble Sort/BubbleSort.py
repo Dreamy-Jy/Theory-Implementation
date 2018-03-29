@@ -17,9 +17,8 @@ def bubble_sort(sequence):
 
 
 def generate_list(list_size, element_min, element_max):
-    """"Generates a list contianing list_size elements.
-    Each element is a random int between or equal element_min
-    and element_max """
+    """"Generates a list of length list_size contianing
+    randomly generated number"""
     sequence = [random.randint(element_min, element_max)
                 for num in range(list_size + 1)]
     return sequence

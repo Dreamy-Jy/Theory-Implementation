@@ -27,8 +27,7 @@ int main() {
 void bubbleSort(vector<int>& array) {
   for(int run = array.size() - 1; run > 0; run--) {
     for(int current_index = 0; current_index < run; current_index++) {
-      if(array[current_index] > array[current_index + 1]) {
-        swap(array[current_index], array[current_index + 1]); }
+      if(array[current_index] > array[current_index + 1]) { swap(array[current_index], array[current_index + 1]); }
     }
   }
 }

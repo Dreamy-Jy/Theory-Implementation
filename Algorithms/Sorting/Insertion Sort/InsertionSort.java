@@ -35,13 +35,13 @@ class InsertionSort {
     public static void insertionSort(int[] array) {
       for(int selectedIndex = 0; selectedIndex < array.length; selectedIndex++) {
         int selectedValue = array[selectedIndex];
-        int shiftIndex = selectedIndex;
         
+        int shiftIndex = selectedIndex;
         while(shiftIndex > 0 && !(array[shiftIndex - 1] < selectedValue)) {
           array[shiftIndex] = array[shiftIndex - 1];
           shiftIndex--;
         }
-        
+
         array[shiftIndex] = selectedValue;
       }
     }
