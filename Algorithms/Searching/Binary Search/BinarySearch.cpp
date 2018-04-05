@@ -1,14 +1,14 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 
-bool binarySearch(const std::vector<int> array, int findInArray) {
+using namespace std;
+
+bool binarySearch(const vector<int>& array, const int& findInArray) {
   vector<int> output;
-  int stepCount = 0;
   int highSearchIndex = array.size()-1, lowSearchIndex = 0;
   int midSearchIndex;
 
   while(highSearchIndex >= lowSearchIndex) {
-    stepCount++;
     midSearchIndex = lowSearchIndex + (highSearchIndex - lowSearchIndex)/2;
 
     if(array[midSearchIndex] == findInArray) return true;
