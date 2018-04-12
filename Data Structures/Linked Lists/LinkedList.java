@@ -1,22 +1,22 @@
-public class LinkedList {
-  public static class Node {
-    private int data;
+public class LinkedList<T> {
+  public static class Node<T> {
+    private T data;
     private Node next;
 
-    public Node(int data) {
+    public Node(T data) {
       this.data = data;
     }
 
-    public Node(int data, Node next) {
+    public Node(T data, Node next) {
       this.data = data;
       this.next = next;
     }
 
-    public void setData(int newData) {
+    public void setData(T newData) {
       this.data = newData;
     }
 
-    public int getData() {
+    public T getData() {
       return this.data;
     }
 
@@ -41,17 +41,17 @@ public class LinkedList {
   private Node head;
   //private int length; we'll start with a naive implementation
 
-  public LinkedList(int headData) {
+  public LinkedList(T headData) {
     head = new Node(headData);
   }
 
-  // public LinkedList(int[] data) {
+  // public LinkedList(T[] data) {
   //   head = new Node(data[0]);
   //   for() {}
 
   // }
 
-  public void add(int data) {
+  public void add(T data) {
     if(head != null) {
       Node current = head;
 
