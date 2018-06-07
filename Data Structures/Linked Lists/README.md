@@ -27,6 +27,21 @@ The connected Nodes don't need to be in a Linked List Object, but we use the Obj
 - **void add()** -
 - **void reverse()**
 
+Moniter State
+[X] contains()
+- toArray()
+[x] toString()
+[x] isEmpty()
+Add Elements
+[x] insert()
+Remove Elements
+- cutAt(index)
+- remove(Node) {should have elements to remove spefic nodes}
+-removeAt(index)
+Getting Data in Structure
+- get(index)
+
+what is Data cache
 ---
 
 ## Todo
