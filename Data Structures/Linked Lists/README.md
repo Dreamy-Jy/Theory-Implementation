@@ -33,11 +33,12 @@ Moniter State
 [x] toString()
 [x] isEmpty()
 Add Elements
-[x] insert()
+[x] append()
 Remove Elements
 - cutAt(index)
-- remove(Node) {should have elements to remove spefic nodes}
--removeAt(index)
+[x] removeTail()
+- removeAt(index)
+[x] removeHead()
 Getting Data in Structure
 - get(index)
 
